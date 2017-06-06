@@ -3,7 +3,7 @@
 * Math
   * PCA (refer to sklearn): How does it work?
   * Kernel PCA (refer to sklearn): How does it work?	What kind (positive semi-definite?) of similarity matrix is required?
-  * Jensen-Shannon divergence: justify the following properties (by online metarials or papers or something else).
+  * Jensen-Shannon divergence: check the following properties (by online metarials or papers or something else).
     * Its square root is a metric.
     * Its lower bound: My guess is that JSD(P1, P2, ..., Pn) >= 0, and the equality holds iff all Pi with alpha_i != 0 are identical. I hope we can either find online or prove this property inorder to make the iterative rotation algorithm reasonable.
   * Affinity propagation (refer to sklearn): How does it work? What kind (positive semi-definite?) of similarity matrix is required if affinity='precomputed'.
