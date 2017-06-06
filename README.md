@@ -9,10 +9,11 @@
   * Affinity propagation (refer to sklearn): How does it work? What kind (positive semi-definite?) of similarity matrix is required if affinity='precomputed'.
   * Hope we can find online or prove that the two ways listed in the website "http://scikit-learn.org/stable/modules/metrics.html" can convert a distance metric to a similarity measure, which can produce the positive semi-definite similarity matrix (if positive semi-definiteness required by kernel PCA and affinity propagation). Then put all the above together to conclude that similarity matrix based on JSD is reasonable.
 * The iterative rotation algorithm to minimize JSD(P1, P2, ..., Pn)
-```
+``` python
   * while not converge
     * for each i
-      * rotation[i] = argmin_(r_i) JSD(r_1(P1), r_1(P2), ..., r_1(Pn))
+      * r_i = argmin_(r_i) JSD(r_1(P1), r_1(P2), ..., r_1(Pn))
+      # r stands for "rotation"
 ```
 * Draw images:
   * 希望是色塊而不是漸層
