@@ -1,4 +1,5 @@
 # ITCT-final
+* python3 is used
 ## Tasks for Huang (flexible)
 * Math
   * PCA (refer to sklearn): How does it work?
