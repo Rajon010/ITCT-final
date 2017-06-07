@@ -25,4 +25,4 @@
     * L1 norm. Looks like http://constantinequilts.com.au/wp-content/uploads/2014/12/Nested-hexagons.jpg
     * L2 norm. Looks like https://f.hypotheses.org/wp-content/blogs.dir/253/files/2015/01/ENTROPY2-KOLM.png
     * Nested triangles. Looks like https://i.stack.imgur.com/wFtg2.png
-    * It will be interesting to try to draw L3, L4, ... norm.
+    * It will be interesting to try to draw L3, L4, ..., L-Infinity norm.
