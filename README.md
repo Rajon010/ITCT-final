@@ -9,7 +9,7 @@
     * Its lower bound: My guess is that JSD(P1, P2, ..., Pn) >= 0, and the equality holds iff all Pi with alpha_i != 0 are identical. I hope we can either find online or prove this property inorder to make the iterative rotation algorithm reasonable.
   * Affinity propagation (refer to sklearn): How does it work? What kind (positive semi-definite?) of similarity matrix is required if affinity='precomputed'.
   * Hope we can find online or prove that the two ways listed in the website "http://scikit-learn.org/stable/modules/metrics.html" can convert a distance metric to a similarity measure, which can produce the positive semi-definite similarity matrix (if positive semi-definiteness required by kernel PCA and affinity propagation). Then put all the above together to conclude that similarity matrix based on JSD is reasonable.
-* The iterative rotation algorithm to minimize JSD(P1, P2, ..., Pn)
+* The iterative rotation algorithm to minimize JSD(P1, P2, ..., Pn). I've already finished this.
 ``` python
   * while not converge
     * for each i
