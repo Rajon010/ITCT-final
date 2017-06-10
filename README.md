@@ -22,7 +22,7 @@
   * 希望是色塊而不是漸層
     * 色塊例如 https://www.researchgate.net/figure/257129126_fig2_Fig-4-Triangle-plot-of-uncertainty-showing-a-U-1-p-max-and-b-entropy-H-of-pixel
   * Tool: https://github.com/marcharper/python-ternary or http://freakonometrics.hypotheses.org/18971 or else
-  * Four triangles
+  * Five triangles
     * Entropy. Looks like https://github.com/marcharper/python-ternary/blob/master/readme_images/heatmap_shannon.png
     * L1 norm. Looks like http://constantinequilts.com.au/wp-content/uploads/2014/12/Nested-hexagons.jpg
     * L2 norm. Looks like https://f.hypotheses.org/wp-content/blogs.dir/253/files/2015/01/ENTROPY2-KOLM.png
